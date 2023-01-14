@@ -1,0 +1,216 @@
+:root {
+    /* Colors */
+    --grey-scale-00: #FCFCFC;
+    --grey-scale-50: #F8F8F8;
+    --grey-scale-100: #E4E4E4;
+    --grey-scale-150: #C4C4C4;
+    --grey-scale-200: #383838;
+    --grey-scale-250: #1C1C1C;
+    --grey-scale-300: #1C1C1C80;
+
+    --background-color: #1F1F1F;
+
+    --interaction-00: #0A91FF;
+    --interaction-50: #007BE0;
+
+    --blue-scale-300: #007BE029;
+
+}
+
+/* Top App Bar */
+
+.top-app-bar {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2.5rem 0.875rem;
+
+    background-color: var(--grey-scale-250);
+    width: auto;
+}
+
+/* Body */
+
+body {
+    font-family: 'Roboto';
+    color:white;
+    background-color: var(--background-color);
+    width: 100%;
+}
+
+/* Fontes */
+
+.titulo {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+
+    color: var(--grey-scale-00);
+}
+
+.body-16-bold {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: var(--grey-scale-00);
+}
+
+.body-16-regular {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: var(--grey-scale-00);
+}
+
+.body-14-extra-bold {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.5;
+
+    color: var(--grey-scale-00);
+}
+
+.body-14-bold {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+
+    color: var(--grey-scale-00);
+}
+
+.body-14-regular {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+
+    color: var(--grey-scale-00);
+}
+
+.body-12-bold {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.5;
+
+    color: var(--grey-scale-250);
+}
+
+.body-12-semi-bold {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.5;
+    text-decoration-line: line-through;
+
+    color: var(--grey-scale-150);
+}
+
+.body-9-semi-bold {
+    font-weight: 600px;
+    font-size: 9px;
+    line-height: 10.55px;
+    text-transform: uppercase;
+
+    color: var(--grey-scale-150);
+}
+
+
+/* Button */
+
+.button-primary {
+    background-color: #0A91FF;
+
+    padding: 0 24px;
+    border-radius: 100px;
+    height: 40px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid transparent;
+}
+
+.button-primary:hover {
+    background-color: var(--interaction-50);
+    border: 1px solid var(--grey-scale-00);
+    cursor: pointer;
+}
+
+.button-secundary {
+    background-color: transparent;
+
+    padding: 0 24px;
+    border-radius: 100px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--interaction-00);
+}
+
+.button-secundary:hover {
+    background-color: var(--blue-scale-300);
+    cursor: pointer;
+}
+
+/* Chips */
+.plataform {
+    box-sizing: border-box;
+
+    background-color: var(--grey-scale-300);
+    padding: 4px;
+    
+    width: 27px;
+    height: 23px;
+
+    border-radius: 2px;
+    
+}
+
+.oferta {
+    background-color: var(--grey-scale-00);
+
+    border-radius: 4px;
+    padding: 4px;
+}
+
+
+/* Margins Bottoms */
+
+.margin-bottom-4 {
+    margin-bottom: 4px;
+}
+
+.margin-bottom-11 {
+    margin-bottom: 11px;
+}
+
+.margin-bottom-12 {
+    margin-bottom: 12px;
+}
+
+.margin-bottom-24 {
+    margin-bottom: 24px;
+}
+
+.margin-bottom-32 {
+    margin-bottom: 32px;
+}
+
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
+/* Margins Left */
+
+.margin-left-12 {
+    margin-left: 12px;
+}
+
+.margin-left-24 {
+    margin-left: 24px;
+}

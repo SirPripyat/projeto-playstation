@@ -1,0 +1,148 @@
+.banner-principal {
+    width: auto;
+    height: 810px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 4rem 6.75rem;
+
+    background-image: url('./assets/banner-principal.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.titulo-descricao-principal {
+    width: 519px;
+    height: 108px;
+}
+
+.novos-lancamentos {
+    padding: 4rem 6.75rem;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.game-card {
+    height: auto;
+    background-color: var(--grey-scale-250);
+    border: 1px solid var(--grey-scale-200);
+    border-radius: 16px;
+}
+
+.game-card:hover {
+    border: 1px solid var(--interaction-00);
+    cursor: pointer;
+}
+
+.image-content {
+    width: 184px;
+    height: 184px;
+
+    background-image: url('./assets/games-card/fifa-23.png.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 16px 16px 0 0;
+}
+
+.image-card {
+    width: 11.5rem;
+    height: 11.5rem;
+}
+
+.informacao {
+    height: 126px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+}
+
+.texto-descricao {
+    width: 160px;
+    height: 72px;
+}
+
+.preco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.banner-secundario {
+    height: 375px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 4rem 6.75rem;
+
+    background-image: url('./assets/banner-secundary/hogwarts-legacy-banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hogwarts-legacy-logo {
+    width: 338px;
+    height: 107px;
+}
+
+.testo-descricao-secundario {
+    width: 591px;
+    height: 144px;
+}
+
+.em-breve {
+    padding: 4rem 6.75rem;
+}
+
+.promocao-banner {
+    height: 408px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    background-image: url('./assets/banner-terciario.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 16px;
+}
+
+.playstation-plus-banner {
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    background-image: url('./assets/playstation-plus-banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
