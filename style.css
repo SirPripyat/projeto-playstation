@@ -1,3 +1,5 @@
+/* Principal */
+
 .banner-principal {
     width: auto;
     height: 810px;
@@ -19,6 +21,8 @@
     height: 108px;
 }
 
+/* Novos lançamentos */
+
 .novos-lancamentos {
     padding: 4rem 6.75rem;
 }
@@ -36,11 +40,14 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
+    width: 100%;
 }
 
+/* Cards */
+
 .game-card {
-    height: auto;
+    width: 182px;
+    height: 320px;
     background-color: var(--grey-scale-250);
     border: 1px solid var(--grey-scale-200);
     border-radius: 16px;
@@ -52,8 +59,7 @@
 }
 
 .image-content {
-    width: 184px;
-    height: 184px;
+    height: 182px;
 
     background-image: url('./assets/games-card/fifa-23.png.jpeg');
     background-repeat: no-repeat;
@@ -63,23 +69,30 @@
     border-radius: 16px 16px 0 0;
 }
 
-.image-card {
-    width: 11.5rem;
-    height: 11.5rem;
-}
+
 
 .informacao {
-    height: 126px;
+    height: 112px;
 
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: flex-start;
     padding: 12px;
 }
 
-.texto-descricao {
-    width: 160px;
-    height: 72px;
+.texto-descricao-card {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 160px;
+}
+
+.titulo-card {
+    max-width: 18ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .preco {
@@ -117,6 +130,15 @@
     padding: 4rem 6.75rem;
 }
 
+.pechinchas {
+    padding: 4rem 6.75rem;
+}
+
+.free-to-play {
+    padding: 4rem 6.75rem;
+}
+
+
 .promocao-banner {
     height: 408px;
 
@@ -134,15 +156,46 @@
 }
 
 .playstation-plus-banner {
-    height: 450px;
+    height: 300px;
 
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 6.75rem;
+
 
     background-image: url('./assets/playstation-plus-banner.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.conteudo-ps-plus {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.playstation-plus-logo {
+    width: 200px;
+    height: auto;
+}
+
+.games-ps-plus {
+    width: 491px;
+}
+
+.generos {
+    padding: 4rem 6.75rem;
+}
+
+.genero-card {
+    width: 184px;
+    border-radius: 16px;
+}
+
+.genero-card:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 15px var(--interaction-00);
 }
