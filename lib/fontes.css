@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* Fontes */
+
+.titulo {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+
+    color: var(--grey-scale-00);
+
+    text-decoration: none;
+}
+
+.body-18-regular {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: var(--grey-scale-250);
+
+    text-decoration: none;
+}
+
+.body-16-bold {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: var(--grey-scale-00);
+
+    text-decoration: none;
+}
+
+.body-16-regular {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: var(--grey-scale-00);
+
+    text-decoration: none;
+}
+
+.body-14-extra-bold {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.5;
+
+    color: var(--grey-scale-00);
+
+    text-decoration: none;
+}
+
+.body-14-bold {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+
+    text-decoration: none;
+}
+
+.body-14-semi-bold {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.5;
+
+    color: var(--grey-scale-00);
+    
+    text-decoration: none;
+}
+
+.body-14-regular {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+
+    color: var(--grey-scale-00);
+
+    text-decoration: none;
+}
+
+.body-13-bold {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.5;
+
+    color: var(--grey-scale-00);
+    text-decoration: none;
+}
+
+.body-12-bold {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.5;
+
+    color: var(--grey-scale-250);
+
+    text-decoration: none;
+}
+
+.body-12-semi-bold {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.5;
+    text-decoration-line: line-through;
+
+    color: var(--grey-scale-150);
+
+}
+
+.body-9-semi-bold {
+    font-weight: 600px;
+    font-size: 9px;
+    line-height: 10.55px;
+    text-transform: uppercase;
+
+    color: var(--grey-scale-150);
+    
+    text-decoration: none;
+}

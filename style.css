@@ -23,7 +23,7 @@
 
 /* Novos lançamentos */
 
-.novos-lancamentos {
+.section-games {
     padding: 4rem 6.75rem;
 }
 
@@ -61,15 +61,8 @@
 .image-content {
     height: 182px;
 
-    background-image: url('./assets/games-card/fifa-23.png.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
     border-radius: 16px 16px 0 0;
 }
-
-
 
 .informacao {
     height: 112px;
@@ -101,6 +94,8 @@
     align-items: center;
 }
 
+/* Banner Secundário */
+
 .banner-secundario {
     height: 375px;
 
@@ -121,23 +116,7 @@
     height: 107px;
 }
 
-.testo-descricao-secundario {
-    width: 591px;
-    height: 144px;
-}
-
-.em-breve {
-    padding: 4rem 6.75rem;
-}
-
-.pechinchas {
-    padding: 4rem 6.75rem;
-}
-
-.free-to-play {
-    padding: 4rem 6.75rem;
-}
-
+/* Banner de Promoção */
 
 .promocao-banner {
     height: 408px;
@@ -154,6 +133,8 @@
 
     border-radius: 16px;
 }
+
+/* Banner do Playstation Plus */
 
 .playstation-plus-banner {
     height: 300px;
@@ -186,9 +167,7 @@
     width: 491px;
 }
 
-.generos {
-    padding: 4rem 6.75rem;
-}
+/* Gêneros Cards */
 
 .genero-card {
     width: 184px;

@@ -1,0 +1,19 @@
+/* Top App Bar */
+
+.top-app-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem 0.875rem;
+  
+    background-color: var(--grey-scale-250);
+
+    width: auto;
+}
+
+.links-top-app-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

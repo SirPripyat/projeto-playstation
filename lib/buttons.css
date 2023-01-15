@@ -1,0 +1,43 @@
+/* Button */
+
+.button-primary {
+    background-color: var(--interaction-00);
+
+    padding: 0 24px;
+    border-radius: 100px;
+    height: 40px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid transparent;
+}
+
+.button-primary:hover {
+    background-color: var(--interaction-50);
+    border: 1px solid var(--grey-scale-00);
+    cursor: pointer;
+}
+
+.button-secundary {
+    background-color: transparent;
+
+    padding: 0 24px;
+    border-radius: 100px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--interaction-00);
+}
+
+.button-secundary:hover {
+    background-color: var(--blue-scale-300);
+    cursor: pointer;
+}
+

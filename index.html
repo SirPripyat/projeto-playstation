@@ -7,17 +7,30 @@
 
         <link rel="stylesheet" href="./reset.css"/>
         <link rel="stylesheet" href="./style.css"/>
-        <link rel="stylesheet" href="./lib.css"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-
+        
+        <link rel="stylesheet" href="./lib/colors.css"/>
+        <link rel="stylesheet" href="./lib/buttons.css"/>
+        <link rel="stylesheet" href="./lib/fontes.css"/>
+        <link rel="stylesheet" href="./lib/footer.css"/>
+        <link rel="stylesheet" href="./lib/main.css"/>
+        <link rel="stylesheet" href="./lib/margins.css"/>
+        <link rel="stylesheet" href="./lib/top-app-bar.css"/>
     </head>
     
     <body>
         <header class="top-app-bar">
             <img src="./assets/logo-top-app-bar.svg">
+
+            <nav>
+                <ul class="links-top-app-bar">
+                    <li><a href="#lancamentos" class="button-secundary body-14-bold margin-left-32">Lançamentos</a></li>
+                    <li><a href="#em-breve" class="button-secundary body-14-bold margin-left-32">Em breve</a></li>
+                    <li><a href="#promocao" class="button-secundary body-14-bold margin-left-32">Ofertas</a></li>
+                    <li><a href="#playstation-plus" class="button-primary body-14-bold margin-left-32">Playstation Plus</a></li>
+                </ul>
+            </nav>
         </header>
+
         <main>
 
             <section class="banner-principal">
@@ -29,9 +42,9 @@
                 <div class="button-primary body-14-bold">Saiba mais</div>
             </section>
 
-            <section class="novos-lancamentos">
+            <section id="lancamentos" class="section-games">
                 <div class="section-title margin-bottom-40"> 
-                    <h2 class="titulo">Novos lançamentos</h2>
+                    <h2 class="titulo">Lançamentos</h2>
                     <div class="button-secundary body-14-bold">Ver todos</div>
                 </div>
                 <div>
@@ -185,14 +198,14 @@
 
             <section class="banner-secundario">
                 <img class="hogwarts-legacy-logo margin-bottom-32" src="./assets/banner-secundary/hogwarts-legacy-logo.png">
-                <div class="titulo-descricao-secundario margin-bottom-32">
+                <div class="margin-bottom-32">
                     <h1 class="titulo margin-bottom-24">Viva na Hogwarts do século XIX e <br> decida o futuro do mundo bruxo.</h1>
                     <p class="body-16-regular">Hogwarts Legacy é um jogo de ação e RPG imersivo e de mundo aberto, <br>ambientado no primeiro mundo apresentado nos livros da série Harry Potter.</p>
                 </div>
-                <div class="button-primary body-14-bold">Comprar na pré-ordem</div>
+                <div class="button-primary body-14-bold">Comprar na pré-venda</div>
             </section>
 
-            <section class="em-breve">
+            <section id="em-breve" class="section-games">
                 <div class="section-title margin-bottom-40"> 
                     <h2 class="titulo">Em breve</h2>
                     <div class="button-secundary body-14-bold">Ver todos</div>
@@ -228,7 +241,7 @@
                                     <p class="body-9-semi-bold margin-bottom-4"></p>
                                     <h3 class="body-14-extra-bold">Skull and Bones</h3>
                                 </div>
-                                <p class="body-14-extra-bold">Anunciado</p>
+                                <p class="body-14-regular">Anunciado</p>
                             </div>
                         </div>
                         <!-- Card sem desconto -->
@@ -249,7 +262,7 @@
                                 <div class="texto-descricao-card">
                                     <h3 class="body-14-extra-bold">Sillent Hill 2</h3>
                                 </div>
-                                <p class="body-14-extra-bold">Anunciado</p>
+                                <p class="body-14-regular">Anunciado</p>
                             </div>
                         </div>
                         <!-- Card sem desconto -->
@@ -259,116 +272,114 @@
                                 <div class="texto-descricao-card">
                                     <h3 class="body-14-extra-bold">Suicide Squad: Kill the Justice League</h3>
                                 </div>
-                                <p class="body-14-extra-bold">Anunciado</p>
+                                <p class="body-14-regular">Anunciado</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="pechinchas">
-                <div class="section-title margin-bottom-40"> 
-                    <h2 class="titulo">Pechinchas</h2>
+            <section id="promocao" class="section-games">
+                <div class="promocao-banner margin-bottom-40"></div>
+                <div class="section-title margin-bottom-32"> 
+                    <h2 class="titulo">Ofertas</h2>
                     <div class="button-secundary body-14-bold">Ver todos</div>
                 </div>
-                <div>
-                    <div class="promocao-banner margin-bottom-32"></div>
-                    <div class="row">
-                        <!-- Card com desconto -->
-                        <div class="game-card">
-                            <img class="image-content" src="./assets/games-card/need-for-speed-unbound.png">
-                            <div class="informacao">
-                                <div class="texto-descricao-card">
-                                    <p class="body-9-semi-bold margin-bottom-4">Edição Padrão</p>
-                                    <h3 class="body-14-extra-bold titulo-card">Need for Speed Unbounds</h3>
-                                </div>
-                                <p class="oferta body-12-bold">-40%</p>
-                                <div class="preco">
-                                    <p class="body-14-extra-bold">R$ 203,34</p>
-                                    <p class="body-12-semi-bold margin-left-12">R$ 338,90</p>
-                                </div>
+                <div class="row">
+                    <!-- Card com desconto -->
+                    <div class="game-card">
+                        <img class="image-content" src="./assets/games-card/need-for-speed-unbound.png">
+                        <div class="informacao">
+                            <div class="texto-descricao-card">
+                                <p class="body-9-semi-bold margin-bottom-4">Edição Padrão</p>
+                                <h3 class="body-14-extra-bold titulo-card">Need for Speed Unbounds</h3>
+                            </div>
+                            <p class="oferta body-12-bold">-40%</p>
+                            <div class="preco">
+                                <p class="body-14-extra-bold">R$ 203,34</p>
+                                <p class="body-12-semi-bold margin-left-12">R$ 338,90</p>
                             </div>
                         </div>
-                        <!-- Card com desconto -->  
-                        <div class="game-card margin-left-24">
-                            <img class="image-content" src="./assets/games-card/nba-2k23.png">
-                            <div class="informacao">
-                                <div class="texto-descricao-card">
-                                    <p class="body-9-semi-bold margin-bottom-4">EDIÇÃO Premium</p>
-                                    <h3 class="body-14-extra-bold">NBA 2K23</h3>
-                                </div>
-                                <p class="oferta body-12-bold">-50%</p>
-                                <div class="preco">
-                                    <p class="body-14-extra-bold">R$ 199,75</p>
-                                    <p class="body-12-semi-bold margin-left-12">R$ 399,50</p>
-                                </div>
+                    </div>
+                    <!-- Card com desconto -->  
+                    <div class="game-card margin-left-24">
+                        <img class="image-content" src="./assets/games-card/nba-2k23.png">
+                        <div class="informacao">
+                            <div class="texto-descricao-card">
+                                <p class="body-9-semi-bold margin-bottom-4">EDIÇÃO Premium</p>
+                                <h3 class="body-14-extra-bold">NBA 2K23</h3>
+                            </div>
+                            <p class="oferta body-12-bold">-50%</p>
+                            <div class="preco">
+                                <p class="body-14-extra-bold">R$ 199,75</p>
+                                <p class="body-12-semi-bold margin-left-12">R$ 399,50</p>
                             </div>
                         </div>
-                        <!-- Card com desconto -->
-                        <div class="game-card margin-left-24">
-                            <img class="image-content" src="./assets/games-card/madden-nfl-23.png">
-                            <div class="informacao">
-                                <div class="texto-descricao-card">
-                                    <p class="body-9-semi-bold margin-bottom-4">Pacote do Jogo</p>
-                                    <h3 class="body-14-extra-bold">Madden NFL 23</h3>
-                                </div>
-                                <p class="oferta body-12-bold">-50%</p>
-                                <div class="preco">
-                                    <p class="body-14-extra-bold">R$ 249,45</p>
-                                    <p class="body-12-semi-bold margin-left-12">R$ 498,90</p>
-                                </div>
+                    </div>
+                    <!-- Card com desconto -->
+                    <div class="game-card margin-left-24">
+                        <img class="image-content" src="./assets/games-card/madden-nfl-23.png">
+                        <div class="informacao">
+                            <div class="texto-descricao-card">
+                                <p class="body-9-semi-bold margin-bottom-4">Pacote do Jogo</p>
+                                <h3 class="body-14-extra-bold">Madden NFL 23</h3>
+                            </div>
+                            <p class="oferta body-12-bold">-50%</p>
+                            <div class="preco">
+                                <p class="body-14-extra-bold">R$ 249,45</p>
+                                <p class="body-12-semi-bold margin-left-12">R$ 498,90</p>
                             </div>
                         </div>
-                        <!-- Card com desconto -->
-                        <div class="game-card margin-left-24">
-                            <img class="image-content" src="./assets/games-card/gta-5.png">
-                            <div class="informacao">
-                                <div class="texto-descricao-card">
-                                    <p class="body-9-semi-bold margin-bottom-4">Pacote do Jogo</p>
-                                    <h3 class="body-14-extra-bold titulo-card">Gran Theft Auto V - Online</h3>
-                                </div>
-                                <p class="oferta body-12-bold">-50%</p>
-                                <div class="preco">
-                                    <p class="body-14-extra-bold">R$ 53,95</p>
-                                    <p class="body-12-semi-bold margin-left-12">R$ 107,90</p>
-                                </div>
+                    </div>
+                    <!-- Card com desconto -->
+                    <div class="game-card margin-left-24">
+                        <img class="image-content" src="./assets/games-card/gta-5.png">
+                        <div class="informacao">
+                            <div class="texto-descricao-card">
+                                <p class="body-9-semi-bold margin-bottom-4">Pacote do Jogo</p>
+                                <h3 class="body-14-extra-bold titulo-card">Gran Theft Auto V - Online</h3>
+                            </div>
+                            <p class="oferta body-12-bold">-50%</p>
+                            <div class="preco">
+                                <p class="body-14-extra-bold">R$ 53,95</p>
+                                <p class="body-12-semi-bold margin-left-12">R$ 107,90</p>
                             </div>
                         </div>
-                        <!-- Card com desconto -->
-                        <div class="game-card margin-left-24">
-                            <img class="image-content" src="./assets/games-card/ratchet-&-clank.png">
-                            <div class="informacao">
-                                <div class="texto-descricao-card">
-                                    <p class="body-9-semi-bold margin-bottom-4">Edição Padrão</p>
-                                    <h3 class="body-14-extra-bold">Ratchet & Clank em uma outra dimensão</h3>
-                                </div>
-                                <p class="oferta body-12-bold">-33%</p>
-                                <div class="preco">
-                                    <p class="body-14-extra-bold">R$ 349,90</p>
-                                    <p class="body-12-semi-bold margin-left-12">R$ 349,90</p>
-                                </div>
+                    </div>
+                    <!-- Card com desconto -->
+                    <div class="game-card margin-left-24">
+                        <img class="image-content" src="./assets/games-card/ratchet-&-clank.png">
+                        <div class="informacao">
+                            <div class="texto-descricao-card">
+                                <p class="body-9-semi-bold margin-bottom-4">Edição Padrão</p>
+                                <h3 class="body-14-extra-bold">Ratchet & Clank em uma outra dimensão</h3>
+                            </div>
+                            <p class="oferta body-12-bold">-33%</p>
+                            <div class="preco">
+                                <p class="body-14-extra-bold">R$ 349,90</p>
+                                <p class="body-12-semi-bold margin-left-12">R$ 349,90</p>
                             </div>
                         </div>
-                        <!-- Card com desconto -->  
-                        <div class="game-card margin-left-24">
-                            <img class="image-content" src="./assets/games-card/spider-man-miles-morales.png">
-                            <div class="informacao">
-                                <div class="texto-descricao-card">
-                                    <p class="body-9-semi-bold margin-bottom-4">Edição Premium</p>
-                                    <h3 class="body-14-extra-bold">Marvel's Spider-Man Miles Morales</h3>
-                                </div>
-                                <p class="oferta body-12-bold">-43%</p>
-                                <div class="preco">
-                                    <p class="body-14-extra-bold">R$ 199,44</p>
-                                    <p class="body-12-semi-bold margin-left-12">R$ 349,00</p>
-                                </div>
+                    </div>
+                    <!-- Card com desconto -->  
+                    <div class="game-card margin-left-24">
+                        <img class="image-content" src="./assets/games-card/spider-man-miles-morales.png">
+                        <div class="informacao">
+                            <div class="texto-descricao-card">
+                                <p class="body-9-semi-bold margin-bottom-4">Edição Premium</p>
+                                <h3 class="body-14-extra-bold">Marvel's Spider-Man Miles Morales</h3>
+                            </div>
+                            <p class="oferta body-12-bold">-43%</p>
+                            <div class="preco">
+                                <p class="body-14-extra-bold">R$ 199,44</p>
+                                <p class="body-12-semi-bold margin-left-12">R$ 349,00</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="free-to-play">
+            <section class="section-games">
                 <div class="section-title margin-bottom-40"> 
                     <h2 class="titulo">Free-to-Play</h2>
                     <div class="button-secundary body-14-bold">Ver todos</div>
@@ -415,7 +426,7 @@
                 </div>
             </section>
 
-            <div class="playstation-plus-banner">
+            <div id="playstation-plus" class="playstation-plus-banner">
                 <div class="conteudo-ps-plus">
                     <img class="playstation-plus-logo margin-bottom-32" src="./assets/playstation-plus-logo.png">
                     <p class="body-18-regular margin-bottom-32">Melhore sua experiência PlayStation com o <br>modo multijogador online, jogos mensais, <br>descontos exclusivos e muito mais.</p>
@@ -424,7 +435,7 @@
                 <img class="games-ps-plus" src="./assets/games-ps-plus.png">
             </div>
 
-            <section class="generos">
+            <section class="section-games">
                 <div class="section-title margin-bottom-40"> 
                     <h2 class="titulo">Gêneros</h2>
                     <div class="button-secundary body-14-bold">Ver todos</div>

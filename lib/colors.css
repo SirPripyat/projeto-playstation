@@ -1,0 +1,26 @@
+:root {
+    /* Grey-scales */
+
+    --grey-scale-00: #FCFCFC;
+    --grey-scale-50: #F8F8F8;
+    --grey-scale-100: #E4E4E4;
+    --grey-scale-150: #C4C4C4;
+    --grey-scale-200: #383838;
+    --grey-scale-250: #1C1C1C;
+    --grey-scale-300: #1C1C1C80;
+
+    /* Background */
+
+    --background-color: #1F1F1F;
+
+    /* Interaction */
+
+    --interaction-00: #0A91FF;
+    --interaction-50: #007BE0;
+
+    /* Blue-scales */
+
+    --blue-scale-250: #007BE0;
+    --blue-scale-300: #007BE029;
+
+}
