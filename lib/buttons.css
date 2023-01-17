@@ -13,6 +13,8 @@
     align-items: center;
 
     border: 1px solid transparent;
+
+    color: var(--grey-scale-00);
 }
 
 .button-primary:hover {
@@ -24,6 +26,8 @@
 .button-secundary {
     background-color: transparent;
 
+    color: var(--interaction-00);
+
     padding: 0 24px;
     border-radius: 100px;
     height: 40px;
@@ -32,8 +36,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
-    color: var(--interaction-00);
 }
 
 .button-secundary:hover {

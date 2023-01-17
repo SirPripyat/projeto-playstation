@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Roboto';
-    color:white;
+    color:var(--grey-scale-00);
     background-color: var(--background-color);
     width: 100%;
 }

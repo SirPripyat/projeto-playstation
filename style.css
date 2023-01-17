@@ -2,7 +2,7 @@
 
 .banner-principal {
     width: auto;
-    height: 810px;
+    height: 700px;
 
     display: flex;
     flex-direction: column;
@@ -10,15 +10,10 @@
     align-items: flex-start;
     padding: 4rem 6.75rem;
 
-    background-image: url('./assets/banner-principal.png');
+    background-image: url('./assets/wallpaper-background.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-
-.titulo-descricao-principal {
-    width: 519px;
-    height: 108px;
 }
 
 /* Novos lançamentos */
@@ -97,7 +92,7 @@
 /* Banner Secundário */
 
 .banner-secundario {
-    height: 375px;
+    height: 700px;
 
     display: flex;
     flex-direction: column;
@@ -171,10 +166,22 @@
 
 .genero-card {
     width: 184px;
+    height: 184px;
     border-radius: 16px;
-}
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}   
 
 .genero-card:hover {
     cursor: pointer;
     box-shadow: 0px 0px 15px var(--interaction-00);
+}
+
+.image-genero-card {
+    width: 184px;
+    height: 184px;
 }
